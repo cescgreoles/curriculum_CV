@@ -1,15 +1,22 @@
 import React from "react";
+import { Pages } from "../App";
 
 const Nav = (props) => {
-  const { setCurrentRoute } = props;
+  const { setCurrentPage } = props;
 
   return (
-    <div className="navbar">
-      <span className="navbar-item">ABOUT ME</span>
-      <span className="navbar-item">PORTFOLIO</span>
-      <span className="navbar-item">EXPERIENCE</span>
-      <span className="navbar-item">CONTACT</span>
-    </div>
+    <section className="navbar">
+      {Object.keys(Pages).map((page) => {
+        return (
+          <button
+            className="navbar-button"
+            onClick={() => setCurrentPage(page)}
+          >
+            {page}
+          </button>
+        );
+      })}
+    </section>
   );
 };
 

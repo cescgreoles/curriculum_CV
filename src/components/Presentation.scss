@@ -1,18 +1,22 @@
+.general {
+  padding: 3% 13%;
+}
+
 .presentation {
   display: flex;
-  padding: 5% 0%;
+  padding: 0% 0%;
   justify-content: center;
+  width: 100%;
 }
 .app-info {
   background-color: #282c34;
-  width: 50%;
+  width: 60%;
 }
 .app-photo {
-  width: 35%;
+  width: 40%;
   background-color: none;
 }
 
 .photo-src {
-  height: 100%;
-  width: 55%;
+  width: 70%;
 }

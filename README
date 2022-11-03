@@ -1,0 +1,4 @@
+<About setCurrentRoute={setCurrentRoute} />
+<Experience setCurrentRoute={setCurrentRoute} />
+<Portfolio setCurrentRoute={setCurrentRoute} />
+<Contact setCurrentRoute={setCurrentRoute} />

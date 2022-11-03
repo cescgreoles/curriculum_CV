@@ -1,26 +1,28 @@
 export const CV = {
-  hero: {
+  about: {
     name: "Cesc",
     lastName: "Greoles",
+    img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
     fullName: "Cesc Greoles",
     city: "Barcelona / Spain",
-    email: "tony@starkindustries.com",
-    birthDate: "29/05/1970",
-    phone: "(+12) 767333841",
-    image: "https://i.imgur.com/ZQAkED3.png",
-    gitHub: "https://github.com/tonystark",
+    email: "fgreoles@gmail.com",
+    birthDate: "25/03/1996",
+    phone: "677035168",
+    image: "",
+    gitHub: "https://github.com/cescgreoles",
+    linkedin: "",
     aboutMe: [
       {
-        info: "",
+        info: "pimpampim",
       },
       {
-        info: "",
+        info: "pumpum",
       },
       {
-        info: "",
+        info: "pem",
       },
       {
-        info: "",
+        info: "pum",
       },
     ],
   },
@@ -57,8 +59,6 @@ export const CV = {
   ],
   languages: {
     language: "English",
-    language: "Catalan",
-    language: "Spanish",
   },
   habilities: [
     "Robotics",

@@ -1,46 +1,31 @@
 import "./index";
 import "./App.scss";
-// import About from "./components/About";
-// import Experience from "./components/About";
-// import Portfolio from "./components/About";
-// import Skills from "./components/About";
-// import Navbar from "./pages/Navbar";
+import Presentation from "./components/Presentation";
+import Nav from "./components/Nav";
+import About from "./components/About";
+// import Experience from "./components/Experience";
+// import Portfolio from "./components/Portfolio";
+// import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { useState } from "react";
 
 function App() {
+  const [currentRoute, setCurrentRoute] = useState("");
+
   return (
-    <div className="App">
+    <div className="app">
       <header>
-        <nav className="navbar">
-          <a className="navbar-item" href="./components/About">
-            ABOUT
-          </a>
-          <a className="navbar-item" href="./components/About">
-            EXPERIENCE
-          </a>
-          <a className="navbar-item" href="./components/About">
-            PORTOFOLIO
-          </a>
-          <a className="navbar-item" href="./components/About">
-            SKILLS
-          </a>
-        </nav>
+        <Presentation setCurrentRoute={setCurrentRoute} />
       </header>
       <main>
-        <p>
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
-          las industrias desde el año 1500, cuando un impresor (N. del T.
-          persona que se dedica a la imprenta) desconocido usó una galería de
-          textos y los mezcló de tal manera que logró hacer un libro de textos
-          especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como
-          texto de relleno en documentos electrónicos, quedando esencialmente
-          igual al original. Fue popularizado en los 60s con la creación de las
-          hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
-          recientemente con software de autoedición, como por ejemplo Aldus
-          PageMaker, el cual incluye versiones de Lorem Ipsum.
-        </p>
+        <Nav setCurrentRoute={setCurrentRoute} />
+        <section>
+          <About />
+        </section>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer setCurrentRoute={setCurrentRoute} />
+      </footer>
     </div>
   );
 }

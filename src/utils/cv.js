@@ -30,7 +30,7 @@ export const CV = {
     {
       name: "Marketing and Digital Comunication",
       date: "2017-2022",
-      where: "EUNcet BUSINESS SCHOOL",
+      where: "EUNCET BUSINESS SCHOOL",
     },
     {
       name: "FULL STACK DEVELOPER",

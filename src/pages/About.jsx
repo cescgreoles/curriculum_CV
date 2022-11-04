@@ -4,9 +4,6 @@ import { CV } from "../utils/cv";
 const About = ({ about }) => {
   return (
     <div className="container-information">
-      <p>
-        {CV.about.name} {CV.about.lastName}
-      </p>
       {CV.education.map((info) => {
         return (
           <div>

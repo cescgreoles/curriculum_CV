@@ -1,4 +1,11 @@
-// .container-experience {
-//   .item-experience {
-//   }
-// }
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+
+.container-experience {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: antiquewhite;
+  .item-experience {
+    padding: 20px;
+  }
+}

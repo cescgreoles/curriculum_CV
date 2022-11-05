@@ -1,14 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+
 .general {
   padding: 3% 13%;
+  display: flex;
+  justify-content: center;
 }
 
-.app-info {
-  background-color: #282c34;
-  width: 60%;
-}
-.app-photo {
+.presentation-photo {
   width: 40%;
   background-color: none;
+}
+
+.presentation-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .photo-src {

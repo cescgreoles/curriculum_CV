@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+
+.navbar {
+  width: 100%;
+  padding: 35px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  .navbar-button {
+    padding: 0px 32px;
+    border-bottom: 2px solid;
+    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+}

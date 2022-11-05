@@ -7,15 +7,14 @@ const Experience = (about) => {
     <div className="container-experience">
       {CV.experience.map((info) => {
         return (
-          <div>
-            <p className="item-experience">{info.name}</p>
-            <p className="item-experience">{info.date}</p>
-            <p className="item-experience">{info.where}</p>
-            <p className="item-experience">{info.description}</p>
+          <div className="item-experience">
+            <p>{info.name}</p>
+            <p>{info.date}</p>
+            <p>{info.where}</p>
+            <p>{info.description}</p>
           </div>
         );
       })}
-      ;
     </div>
   );
 };

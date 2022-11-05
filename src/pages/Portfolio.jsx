@@ -1,9 +1,12 @@
 import React from "react";
+import "../styles/Portfolio.scss";
 
 const Portfolio = () => {
   return (
     <div>
-      <h1>Aqui voy a poner mi PORTFOLIO</h1>
+      <p>POKEAPI</p>
+      <p>SLACK WEB</p>
+      <p>GAME OF THRONES</p>
     </div>
   );
 };

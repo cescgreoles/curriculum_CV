@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Navbar.scss";
 import { Pages } from "../App";
 
 const Nav = (props) => {

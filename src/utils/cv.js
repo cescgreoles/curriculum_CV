@@ -1,12 +1,14 @@
 export const CV = {
   about: {
-    name: "Cesc",
-    lastName: "Greoles",
+    name: "CESC",
+    lastName: "GREOLES",
     img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
     fullName: "Cesc Greoles",
     city: "Barcelona / Spain",
     email: "fgreoles@gmail.com",
     birthDate: "25/03/1996",
+    profesion: "Community Manager",
+    profesion2: "Full Stack Developer",
     phone: "677035168",
     image: "",
     gitHub: "https://github.com/cescgreoles",

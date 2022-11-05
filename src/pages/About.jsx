@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/About.scss";
 import { CV } from "../utils/cv";
 
 const About = ({ about }) => {
@@ -6,14 +7,13 @@ const About = ({ about }) => {
     <div className="container-information">
       {CV.education.map((info) => {
         return (
-          <div>
+          <div className="p-information">
             <p>{info.name}</p>
             <p>{info.date}</p>
             <p>{info.where}</p>
           </div>
         );
       })}
-      ;
     </div>
   );
 };

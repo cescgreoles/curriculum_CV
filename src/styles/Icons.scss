@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 
-.container-information {
+.section-icons {
   display: flex;
   justify-content: space-around;
-  .p-information {
-    padding: 9px 20px;
-  }
+  background-color: coral;
 }

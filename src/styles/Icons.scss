@@ -3,5 +3,25 @@
 .section-icons {
   display: flex;
   justify-content: space-around;
-  background-color: coral;
+  background-color: aliceblue;
+  padding: 19px;
+  margin: 0 23px;
+  border: solid 2px;
+}
+
+.img-logo {
+  width: 100%;
+}
+
+.button-icons {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  font-size: unset;
+  align-items: center;
+
+  .span-ajust {
+    padding-left: 5px;
+  }
 }

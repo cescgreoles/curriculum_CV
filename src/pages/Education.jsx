@@ -11,6 +11,7 @@ const Education = ({ about }) => {
             <p>{info.name}</p>
             <p>{info.date}</p>
             <p>{info.where}</p>
+            <img src={info.img} alt={info.img} className="logo-image"></img>
           </div>
         );
       })}

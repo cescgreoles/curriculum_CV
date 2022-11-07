@@ -8,8 +8,8 @@ import Experience from "./pages/Experience";
 import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
-import Contact from "./pages/Contact";
-// import { Route, Routes } from "../src/index";
+import Languages from "./pages/Languages";
+
 import { useState } from "react";
 
 export const Pages = {
@@ -18,7 +18,7 @@ export const Pages = {
   SKILLS: "SKILLS",
   EDUCATION: "EDUCATION",
   EXPERIENCE: "EXPERIENCE",
-  CONTACT: "CONTACT",
+  LANGUAGES: "LANGUAGES",
 };
 
 function App() {
@@ -30,18 +30,20 @@ function App() {
   else if (currentPage === Pages.EXPERIENCE) currentComponent = <Experience />;
   else if (currentPage === Pages.SKILLS) currentComponent = <Skills />;
   else if (currentPage === Pages.EDUCATION) currentComponent = <Education />;
-  else if (currentPage === Pages.CONTACT) currentComponent = <Contact />;
+  else if (currentPage === Pages.LANGUAGES) currentComponent = <Languages />;
 
   return (
     <div className="app">
       <header>
         <Presentation />
-        <Icons />
       </header>
       <main>
         <Nav setCurrentPage={setCurrentPage} />
-        <section>{currentComponent}</section>
+        <section className="general-container">{currentComponent}</section>
       </main>
+      <footer>
+        <Icons />
+      </footer>
     </div>
   );
 }

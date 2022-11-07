@@ -1,17 +1,19 @@
-.logo-image {
-  width: 61px;
-}
-
 .container-information {
   display: flex;
   justify-content: space-around;
-  margin: 50px;
+  padding: 50px;
   border: solid 2px black;
   background-color: aliceblue;
-  .p-information {
-    padding: 9px 20px;
+
+  .item-information {
+    font-size: 13px;
   }
-  .logo-image {
-    width: 61px;
-  }
+}
+
+.logo-image {
+  width: 120px;
+}
+
+.img-icon-skills {
+  width: 100px;
 }

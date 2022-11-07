@@ -1,14 +1,16 @@
 import React from "react";
 import { CV } from "../utils/cv";
-import "../styles/About.scss";
+import "../styles/Languages.scss";
 
-const About = (about) => {
+const Languages = (about) => {
   return (
     <div className="container-information">
-      {CV.aboutMe.map((info) => {
+      {CV.languages.map((info) => {
         return (
           <div className="item-information">
-            <p>{info.info}</p>
+            <p>{info.language}</p>
+            <p>{info.level}</p>
+            <p>{info.stars}</p>
           </div>
         );
       })}
@@ -16,4 +18,4 @@ const About = (about) => {
   );
 };
 
-export default About;
+export default Languages;

@@ -13,7 +13,7 @@ body,
 
 .app {
   text-align: center;
-  background-color: white;
+  background-color: #037579;
   width: 100;
   min-height: 100%;
 }
@@ -27,7 +27,6 @@ body,
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: gold;
 }
 
 .icons-footer {
@@ -38,4 +37,8 @@ body,
   width: 100%;
   border: #282c34 solid 1px;
   padding: 11px;
+}
+
+.general-container {
+  padding: 40px;
 }

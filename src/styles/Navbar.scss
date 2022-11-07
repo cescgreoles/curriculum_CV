@@ -2,15 +2,19 @@
 
 .navbar {
   width: 100%;
-  padding: 35px;
+
   display: flex;
   justify-content: space-around;
   font-family: "Inter", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
   .navbar-button {
-    padding: 0px 32px;
+    padding: 12px 32px;
     border-bottom: 2px solid;
     font-family: "Inter", sans-serif;
     font-family: "Roboto", sans-serif;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 2px;
   }
 }

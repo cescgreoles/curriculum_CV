@@ -9,6 +9,7 @@ import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
 import Contact from "./pages/Contact";
+// import { Route, Routes } from "../src/index";
 import { useState } from "react";
 
 export const Pages = {

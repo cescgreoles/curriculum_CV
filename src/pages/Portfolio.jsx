@@ -7,11 +7,9 @@ const Portfolio = ({ about }) => {
     <div className="container-information">
       {CV.portfolio.map((info) => {
         return (
-          <button>
-            <div className="button-click">
-              <img src={info.img} alt={info.img} className="img-size"></img>
-            </div>
-          </button>
+          <div className="button-click">
+            <img src={info.img} alt={info.img} className="img-size"></img>
+          </div>
         );
       })}
     </div>

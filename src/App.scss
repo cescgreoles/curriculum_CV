@@ -18,11 +18,6 @@ body,
   min-height: 100%;
 }
 
-.container-information {
-  background-color: #a0dabb;
-  margin: 1% 5%;
-}
-
 .icons-info {
   display: flex;
   justify-content: space-around;
@@ -41,4 +36,9 @@ body,
 
 .general-container {
   padding: 40px;
+}
+
+div:focus {
+  border: solid 2px red;
+  outline: none;
 }

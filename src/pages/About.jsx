@@ -4,7 +4,7 @@ import "../styles/About.scss";
 
 const About = (about) => {
   return (
-    <div className="container-information">
+    <div className="container-about">
       {CV.aboutMe.map((info) => {
         return (
           <div className="item-information">

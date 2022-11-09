@@ -7,7 +7,7 @@ const About = (about) => {
     <div className="container-about">
       {CV.aboutMe.map((info) => {
         return (
-          <div className="item-information">
+          <div className="item-about">
             <p>{info.info}</p>
           </div>
         );

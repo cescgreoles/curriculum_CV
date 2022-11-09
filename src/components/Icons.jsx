@@ -18,7 +18,7 @@ const Icons = (about) => {
       </button>
 
       <button className="button-icons">
-        <a href={CV.about.gitHub} target="_blank" rel="noopener noreferrer">
+        <a href={CV.about.linkedin} target="_blank" rel="noopener noreferrer">
           <img
             src="https://proinfluent.b-cdn.net/wp-content/uploads/2019/05/Logo-LinkedIn-noir.png"
             alt=""
@@ -30,7 +30,11 @@ const Icons = (about) => {
       </button>
 
       <button className="button-icons">
-        <a href={CV.about.gitHub} target="_blank" rel="noopener noreferrer">
+        <a
+          href="mailto:fgreoles@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://cdn.pixabay.com/photo/2014/07/10/14/58/letters-389108_640.png"
             alt=""
@@ -39,8 +43,6 @@ const Icons = (about) => {
             className="img-logo"
           />
         </a>
-
-        <span className="span-ajust">fgreoles@gmail.com</span>
       </button>
     </div>
   );

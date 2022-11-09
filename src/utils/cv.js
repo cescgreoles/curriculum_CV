@@ -12,7 +12,7 @@ export const CV = {
     phone: "677035168",
     image: "",
     gitHub: "https://github.com/cescgreoles",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/francesc-greoles-a215a5152/",
   },
   aboutMe: [
     {
@@ -65,25 +65,25 @@ export const CV = {
   portfolio: [
     {
       name: "PokeApi",
-      url: "",
+      url: "https://github.com/cescgreoles/JAVASCRIPT/tree/main/APIS/API-POKEMON",
       description: "",
       img: "https://avatars.githubusercontent.com/u/64151210?v=4",
     },
     {
       name: "GameOfThrones",
-      url: "",
+      url: "https://github.com/cescgreoles/JAVASCRIPT/tree/main/APIS/API-GOT",
       description: "",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Game_of_Thrones_2011_logo.svg/2560px-Game_of_Thrones_2011_logo.svg.png",
     },
     {
       name: "CurriculumCV",
-      url: "",
+      url: "https://github.com/cescgreoles/curriculum_cv",
       description: "",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8iidaF0PYGkmvf_kH4eUFOgX5tBaSsyvKMg&usqp=CAU",
+      img: "https://cdn-icons-png.flaticon.com/512/909/909314.png",
     },
     {
       name: "SlackWeb",
-      url: "",
+      url: "https://github.com/cescgreoles/EXC-SLACK",
       description: "",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2560px-Slack_Technologies_Logo.svg.png",
     },

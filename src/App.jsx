@@ -9,10 +9,11 @@ import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
 import Languages from "./pages/Languages";
-
 import { useState } from "react";
+import Home from "./pages/Home";
 
 export const Pages = {
+  HOME: "HOME",
   ABOUT: "ABOUT",
   PORTFOLIO: "PORTFOLIO",
   SKILLS: "SKILLS",
@@ -22,10 +23,11 @@ export const Pages = {
 };
 
 function App() {
-  const [currentPage, setCurrentPage] = useState(Pages.ABOUT);
+  const [currentPage, setCurrentPage] = useState(Pages.HOME);
 
   let currentComponent = null;
-  if (currentPage === Pages.ABOUT) currentComponent = <About />;
+  if (currentPage === Pages.HOME) currentComponent = <Home />;
+  else if (currentPage === Pages.ABOUT) currentComponent = <About />;
   else if (currentPage === Pages.PORTFOLIO) currentComponent = <Portfolio />;
   else if (currentPage === Pages.EXPERIENCE) currentComponent = <Experience />;
   else if (currentPage === Pages.SKILLS) currentComponent = <Skills />;
@@ -35,10 +37,9 @@ function App() {
   return (
     <div className="app">
       <header>
-        <Presentation />
+        <Nav setCurrentPage={setCurrentPage} />
       </header>
       <main>
-        <Nav setCurrentPage={setCurrentPage} />
         <section className="general-container">{currentComponent}</section>
       </main>
       <footer>

@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 
-.button-portfolio {
-  background-color: transparent;
-  padding: 11px;
-}
-.button-click {
-  padding: 0px 15px;
-
+.div-container-portfolio {
   display: flex;
-  align-items: center;
-}
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
-.img-size {
-  width: 150px;
+  a {
+    width: 25vw;
+    height: auto;
+    border: 2px solid black;
+    margin: 0.5em;
+  }
+
+  .imagen-portfolio {
+    width: 50%;
+  }
 }

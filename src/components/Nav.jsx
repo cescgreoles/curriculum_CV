@@ -9,12 +9,16 @@ const Nav = (props) => {
     <section className="navbar">
       {Object.keys(Pages).map((page) => {
         return (
-          <button
-            className="navbar-button"
-            onClick={() => setCurrentPage(page)}
-          >
-            {page}
-          </button>
+          <div>
+            {" "}
+            <img src="../../public/cv-icon.png" alt=""></img>
+            <button
+              className="navbar-button"
+              onClick={() => setCurrentPage(page)}
+            >
+              {page}
+            </button>
+          </div>
         );
       })}
     </section>

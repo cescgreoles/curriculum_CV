@@ -6,7 +6,7 @@ const Presentation = (about) => {
   return (
     <div className="general">
       <section className="presentation-photo">
-        <img src="IMG_1311.jpg" alt="imgprofile" className="photo-src"></img>
+        <img src="Tema.png" alt="Tema.png" className="photo-src"></img>
       </section>
       <section className="presentation-info">
         <p>
@@ -17,6 +17,9 @@ const Presentation = (about) => {
         <p>{CV.about.profesion}</p>
         <p>{CV.about.profesion2}</p>
       </section>
+      <div>
+        <p>full stack developer</p>
+      </div>
     </div>
   );
 };

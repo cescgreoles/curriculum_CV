@@ -4,17 +4,22 @@
   width: 100%;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   font-family: "Inter", sans-serif;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  background-color: green;
+  height: 3em;
+
   .navbar-button {
     padding: 12px 32px;
     border-bottom: 2px solid;
     font-family: "Inter", sans-serif;
     font-family: "Roboto", sans-serif;
-    border: none;
     background-color: transparent;
     border-bottom: solid 2px;
+    border: none;
+    background-color: green;
+    color: white;
   }
 }

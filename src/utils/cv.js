@@ -87,6 +87,30 @@ export const CV = {
       description: "",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2560px-Slack_Technologies_Logo.svg.png",
     },
+    {
+      name: "Back-Node",
+      url: "https://github.com/florenpedrajas/PROYECTO-FINAL-NODE",
+      description: "",
+      img: "https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
+    },
+    {
+      name: "React Records",
+      url: "https://github.com/cescgreoles/ReactRecords",
+      description: "",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2560px-Slack_Technologies_Logo.svg.png",
+    },
+    {
+      name: "Argentina",
+      url: "https://github.com/cescgreoles/frontArgentinaA",
+      description: "",
+      img: "https://static.wikia.nocookie.net/todofutbol/images/f/f1/AFA.gif/revision/latest?cb=20090730011816&path-prefix=es",
+    },
+    {
+      name: "Projecte Final",
+      url: "",
+      description: "",
+      img: "https://tgpooley.files.wordpress.com/2018/05/finish-flag.png?w=195&h=195",
+    },
   ],
   languages: [
     { language: "English", level: "B2 level", stars: "***" },
@@ -113,6 +137,14 @@ export const CV = {
     {
       name: "VISUAL ESTUDIO CODE",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
+    },
+    {
+      name: "SYMFONY",
+      img: "https://github.com/symfony.png",
+    },
+    {
+      name: "NODE-JS",
+      img: "https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
     },
   ],
 };

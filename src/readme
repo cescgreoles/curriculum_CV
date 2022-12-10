@@ -1,0 +1,14 @@
+const [currentPage, setCurrentPage] = useState(Pages.GraphicsPage);
+
+let currentComponent = null;
+if (currentPage === Pages.HOME) currentComponent = <GraphicsPage />;
+else if (currentPage === Pages.ABOUT) currentComponent = <About />;
+else if (currentPage === Pages.PORTFOLIO) currentComponent = <Portfolio />;
+else if (currentPage === Pages.EXPERIENCE) currentComponent = <Experience />;
+
+export const Pages = {
+Alzheimer: "Alzheimer",
+EsclerosisMultiple: "Esclerosis Multiple",
+EslcerosisLateral: "Esclerosis Lateral",
+Parkinson: "Parkinson"
+};

@@ -17,9 +17,6 @@ const Presentation = (about) => {
         <p>{CV.about.profesion}</p>
         <p>{CV.about.profesion2}</p>
       </section>
-      <div>
-        <p>full stack developer</p>
-      </div>
     </div>
   );
 };

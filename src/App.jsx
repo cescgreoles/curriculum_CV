@@ -11,6 +11,7 @@ import Education from "./pages/Education";
 import Languages from "./pages/Languages";
 import { useState } from "react";
 import Home from "./pages/Home";
+import ComponentLogo from "./components/ComponentLogo";
 
 export const Pages = {
   HOME: "HOME",
@@ -36,15 +37,14 @@ function App() {
 
   return (
     <div className="app">
-      <header>
+      <header className="header">
+        <ComponentLogo />
         <Nav setCurrentPage={setCurrentPage} />
       </header>
       <main>
         <section className="general-container">{currentComponent}</section>
       </main>
-      <footer>
-        <Icons />
-      </footer>
+      <footer></footer>
     </div>
   );
 }

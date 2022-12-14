@@ -18,6 +18,11 @@ body,
   min-height: 100%;
 }
 
+.header {
+  display: flex;
+  background-color: #0d304b;
+}
+
 .icons-info {
   display: flex;
   justify-content: space-around;

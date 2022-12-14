@@ -1,25 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 
 .navbar {
-  width: 100%;
+  width: 100vw;
 
   display: flex;
   justify-content: flex-end;
   font-family: "Inter", sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  background-color: green;
+
   height: 3em;
+  align-items: center;
 
   .navbar-button {
-    padding: 12px 32px;
+    padding: 2em;
     border-bottom: 2px solid;
     font-family: "Inter", sans-serif;
     font-family: "Roboto", sans-serif;
     background-color: transparent;
     border-bottom: solid 2px;
     border: none;
-    background-color: green;
+
     color: white;
   }
 }

@@ -10,8 +10,6 @@ const Nav = (props) => {
       {Object.keys(Pages).map((page) => {
         return (
           <div>
-            {" "}
-            <img src="../../public/cv-icon.png" alt=""></img>
             <button
               className="navbar-button"
               onClick={() => setCurrentPage(page)}

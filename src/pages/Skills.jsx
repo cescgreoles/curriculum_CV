@@ -1,22 +1,17 @@
 import React from "react";
+import SkillsDeveloper from "../components/SkillsDeveloper";
+import SkillsLanguages from "../components/SkillsLanguages";
 import "../styles/Skills.scss";
-import { CV } from "../utils/cv";
 
-const Skills = (about) => {
+const Skills = () => {
   return (
-    <div className="container-information">
-      {CV.skills.map((info) => {
-        return (
-          <div className="item-information">
-            <p>{info.name}</p>
-            <img
-              src={info.img}
-              alt={info.img}
-              className="img-icon-skills"
-            ></img>
-          </div>
-        );
-      })}
+    <div>
+      <div className="paddings-general">
+        <SkillsDeveloper />
+      </div>
+      <div className="paddings-general">
+        <SkillsLanguages />
+      </div>
     </div>
   );
 };

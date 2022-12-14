@@ -112,11 +112,7 @@ export const CV = {
       img: "https://tgpooley.files.wordpress.com/2018/05/finish-flag.png?w=195&h=195",
     },
   ],
-  languages: [
-    { language: "English", level: "B2 level", stars: "***" },
-    { language: "Spanish", level: "Native", stars: "*****" },
-    { language: "Catalan", level: "Native", stars: "*****" },
-  ],
+
   skills: [
     {
       name: "REACT",
@@ -145,6 +141,26 @@ export const CV = {
     {
       name: "NODE-JS",
       img: "https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
+    },
+  ],
+  languages: [
+    {
+      idioma: "CATALAN",
+      imgIdioma:
+        "https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
+      level: "Native",
+    },
+    {
+      idioma: "SPANISH",
+      imgIdioma:
+        "https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
+      level: "Native",
+    },
+    {
+      idioma: "ENGLISH",
+      imgIdioma:
+        "https://victorroblesweb.es/wp-content/uploads/2018/01/nodejs-victorroblesweb.png",
+      level: "B2",
     },
   ],
 };

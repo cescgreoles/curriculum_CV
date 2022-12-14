@@ -1,3 +1,7 @@
+.section-skills {
+  display: flex;
+}
+
 .container-information {
   display: flex;
   flex-direction: row;
@@ -5,13 +9,41 @@
   justify-content: center;
 
   .item-information {
-    width: 25vw;
+    width: 15vw;
     height: auto;
-    border: 2px solid black;
-    margin: 0.5em;
+    font-size: 13px;
+    margin: 0.8em;
+    box-shadow: 0px -1px 16px 1px #000 fade-out($color: #000000, $amount: 0);
+    opacity: 0.8;
   }
 
   .img-icon-skills {
     width: 50%;
+    padding-top: 0.7em;
   }
+}
+
+.container-information-languages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 4em;
+
+  .item-information-languages {
+    width: 15vw;
+    height: auto;
+    font-size: 13px;
+    margin: 0.8em;
+    box-shadow: 0px -1px 16px 1px #000 fade-out($color: #000000, $amount: 0);
+    opacity: 0.8;
+  }
+  .img-icon-skills {
+    width: 50%;
+    padding-top: 0.7em;
+  }
+}
+
+.paddings-general {
+  padding-bottom: 3em;
 }
